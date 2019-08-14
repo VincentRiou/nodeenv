@@ -132,6 +132,11 @@ for compilation and npm.js "0.3.17"::
 
     $ nodeenv --without-ssl --node=0.4.3 --npm=0.3.17 --jobs=4 env-4.3
 
+Install node.js "10.16.2" and npm.js "6.10.3" (note the with-npm option 
+which is needed for node version above 0.6.3)::
+
+    $ nodeenv --node=10.16.2 --with-npm --npm=6.10.3 output/node env-10.16.2
+
 Install node.js from the source::
 
     $ nodeenv --node=0.10.25 --source env-0.10.25
